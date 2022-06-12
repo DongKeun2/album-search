@@ -1,26 +1,17 @@
 # music-search-app
-link
-https://splendid-macaron-4618a1.netlify.app
 
-## Project setup
-```
-npm install
-```
+link : [바로가기](https://splendid-macaron-4618a1.netlify.app)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Goal
+- Vuex를 이용한 상태관리
+- Axios 요청
+- Styling with TailwindCSS
+- 다크모드 적용
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 🔧Tools
+- VSCode
+- Chrome with Vue.js devtools
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue with Vuex
+TailwindCSS
