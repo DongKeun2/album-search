@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+import APIKEY from '@/store/APIKEY'
 
 Vue.use(Vuex)
 
@@ -26,7 +27,7 @@ export default new Vuex.Store({
       }
 
       const LAST_FM_ALBUM_SEARCH_URL = 'https://ws.audioscrobbler.com/2.0/'
-      const API_KEY = '2efc0e218d3d77c46f3a4a5221887717'
+      const API_KEY = APIKEY
 
       const params = {
         method: 'album.search',
